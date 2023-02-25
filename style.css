@@ -36,7 +36,7 @@ header img{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     overflow: hidden;
 }
@@ -94,6 +94,7 @@ header img{
     margin-right: 20px;
     margin-top: 90px;
     box-shadow: 4px 4px 3px 4px #404435;
+    cursor: pointer;
 }
 
 /* ANIMATIONS - LAG */
@@ -211,7 +212,7 @@ header img{
     background-color: #8e5544;
     display: flex;
     justify-content: space-around;
-    padding: 150px 0px;
+    padding: 150px;
     width: 100%;
     flex-wrap: wrap;
     overflow: hidden;
@@ -299,7 +300,7 @@ header img{
 .c-projetos{
     background-color: #d5c1a8;
     width: 100%;
-    padding: 50px;
+    padding: 40px;
     overflow: hidden;
 }
 
