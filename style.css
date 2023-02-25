@@ -329,10 +329,9 @@ header img{
 
 .card{
     background-color: #8e5544;
-    padding: 50px;
+    padding: 40px;
     box-shadow: 4px 4px 10px #000000;
     margin-top: 35px;
-    cursor: pointer;
     transition: 0.3s all;
     margin-bottom: 24px;
     border-radius: 10px;
@@ -345,9 +344,28 @@ header img{
 }
 
 .card h3{
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 200;
     color: #ffffff;
+}
+
+.card button{
+    padding: 10px;
+    margin-top: 16px;
+    background-color: #d5c1a8;
+    border: none;
+    border-radius: 8px 0px 8px 0px;
+    color: #1e1d1f;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 4px 4px 10px #1e1d1f;
+    cursor: pointer;
+    transition: all .8s ease;
+}
+
+.card button:hover{
+    background-color: #ffffff;
+    transform: scale(1.1);
 }
 
 .card:hover{
@@ -383,7 +401,9 @@ header img{
 }
 
 .c-rodape p{
-    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 200;
+    padding-bottom: 2px;
     text-align: center;
     color: #ffffff;
 }
@@ -394,7 +414,7 @@ header img{
 
 .c-icon2 {
     margin-top: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     display: flex;
     gap: 20px;
     overflow: hidden;
@@ -416,16 +436,7 @@ header img{
     color: #404435;
 }
 
-.c-rodape form input{
-
-}
-
 .c-rodape form input:hover{
-    transform: scale(1.1);
-    transition: 1s;
-}
-
-#btnsubmit:hover{
     transform: scale(1.1);
     transition: 1s;
 }
